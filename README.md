@@ -1,5 +1,7 @@
 # DCL-SLAM
 
+ - The source code will be opened soon!
+
 A ROS package of DCL-SLAM: Distributed Collaborative LiDAR SLAM Framework for a Robotic Swarm. 
 
 https://user-images.githubusercontent.com/41199568/197691132-3850b5ff-8c6b-4bce-befa-a33f72487d2d.mp4
