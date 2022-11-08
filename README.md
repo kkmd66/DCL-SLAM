@@ -10,6 +10,7 @@ The HD video of the demonstration of the method is avaliable at [BiliBili](https
 
 The paper is avaliable at [site](https://arxiv.org/pdf/2210.11978.pdf), and please cite:
 
+```
 @article{DBLP:journals/corr/abs-2210-11978,
   author    = {Shipeng Zhong and
                Yuhua Qi and
@@ -30,6 +31,7 @@ The paper is avaliable at [site](https://arxiv.org/pdf/2210.11978.pdf), and plea
   biburl    = {https://dblp.org/rec/journals/corr/abs-2210-11978.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+```
 
 ## Prerequisites
   - [ROS Melodic](https://wiki.ros.org/melodic) (Robot Operating System on Ubuntu)
