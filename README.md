@@ -6,46 +6,21 @@ A ROS package of DCL-SLAM: Distributed Collaborative LiDAR SLAM Framework for a 
 
 https://user-images.githubusercontent.com/41199568/197691132-3850b5ff-8c6b-4bce-befa-a33f72487d2d.mp4
 
-The HD video of the demonstration of the method is avaliable at [BiliBili](https://www.bilibili.com/video/BV12G4y187mw/?spm_id_from=333.337.search-card.all.click).
-
-The paper is avaliable at [site](https://arxiv.org/pdf/2210.11978.pdf), and please cite:
-
-```
-@article{DBLP:journals/corr/abs-2210-11978,
-  author    = {Shipeng Zhong and
-               Yuhua Qi and
-               Zhiqiang Chen and
-               Jin Wu and
-               Hongbo Chen and
-               Ming Liu},
-  title     = {{DCL-SLAM:} {A} Distributed Collaborative LiDAR {SLAM} Framework for
-               a Robotic Swarm},
-  journal   = {CoRR},
-  volume    = {abs/2210.11978},
-  year      = {2022},
-  url       = {https://doi.org/10.48550/arXiv.2210.11978},
-  doi       = {10.48550/arXiv.2210.11978},
-  eprinttype = {arXiv},
-  eprint    = {2210.11978},
-  timestamp = {Tue, 25 Oct 2022 14:25:08 +0200},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2210-11978.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-```
+The HD video of the demonstration of DCL-SLAM is avaliable at [BiliBili](https://www.bilibili.com/video/BV12G4y187mw/?spm_id_from=333.337.search-card.all.click).
 
 ## Prerequisites
-  - [ROS Melodic](https://wiki.ros.org/melodic) (Robot Operating System on Ubuntu)
-  - Python (required system packages)
-  - CMake (compilation configuration tool)
+  - [Ubuntu ROS](http://wiki.ros.org/ROS/Installation) (Robot Operating System on Ubuntu 18.04 or 20.04)
+  - Python (For wstool and catkin tool)
+  - CMake (Compilation Configuration Tool)
   - [Boost](http://www.boost.org/) (portable C++ source libraries)
-  - [GTSAM](https://github.com/borglab/gtsam/releases) (Georgia Tech Smoothing and Mapping library)
-  - [livox_ros_driver](https://github.com/Livox-SDK/livox_ros_driver) (Livox LiDAR driver on Ubuntu ROS)
-  - [PCL](https://pointclouds.org/downloads/linux.html) (Point Cloud Library)
-  - [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) (C++ template library for linear algebra)
+  - [PCL](https://pointclouds.org/downloads/linux.html) (Default Point Cloud Library on Ubuntu work normally)
+  - [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) (Default Eigen library on Ubuntu work normally)
   ```
   sudo apt-get install cmake libboost-all-dev python-wstool python-catkin-tools
   ```
-  The other prerequisites will be installed during the compilation.
+  - [GTSAM](https://github.com/borglab/gtsam/releases) (Georgia Tech Smoothing and Mapping library)
+  - [livox_ros_driver](https://github.com/Livox-SDK/livox_ros_driver) (The driver for Livox LiDAR)
+  These prerequisites will be installed during the compilation.
 
 ## Compilation
   Set up the workspace configuration:
@@ -82,6 +57,32 @@ The paper is avaliable at [site](https://arxiv.org/pdf/2210.11978.pdf), and plea
   ```
   
   - Other dataset. Please follow [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM) and [FAST-LIO2](https://github.com/hku-mars/FAST_LIO) to set your own config file for the dataset in "config/*your-config-file*.yaml", and change the path in "launch/single_ugv.launch".
+
+## Citation
+The paper is avaliable at [site](https://arxiv.org/pdf/2210.11978.pdf), and please cite:
+
+```
+@article{DBLP:journals/corr/abs-2210-11978,
+  author    = {Shipeng Zhong and
+               Yuhua Qi and
+               Zhiqiang Chen and
+               Jin Wu and
+               Hongbo Chen and
+               Ming Liu},
+  title     = {{DCL-SLAM:} {A} Distributed Collaborative LiDAR {SLAM} Framework for
+               a Robotic Swarm},
+  journal   = {CoRR},
+  volume    = {abs/2210.11978},
+  year      = {2022},
+  url       = {https://doi.org/10.48550/arXiv.2210.11978},
+  doi       = {10.48550/arXiv.2210.11978},
+  eprinttype = {arXiv},
+  eprint    = {2210.11978},
+  timestamp = {Tue, 25 Oct 2022 14:25:08 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2210-11978.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
 
 ## Acknowledgement
 
