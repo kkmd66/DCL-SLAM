@@ -20,7 +20,7 @@ The HD video of the demonstration of DCL-SLAM is avaliable at [BiliBili](https:/
   ```
   - [GTSAM](https://github.com/borglab/gtsam/releases) (Georgia Tech Smoothing and Mapping library)
   - [livox_ros_driver](https://github.com/Livox-SDK/livox_ros_driver) (The driver for Livox LiDAR)
-  - 
+
   These prerequisites will be installed during the compilation.
 
 ## Compilation
